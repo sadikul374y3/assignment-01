@@ -3,8 +3,12 @@
     margin: 0;
 }
 
-main{
-    /* max-width: 1140px; */
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /* sharing-css */
@@ -24,6 +28,12 @@ main{
 
 main{
     background-color: #f5f8ff;
+}
+
+.primary-btn:hover {
+    background-color: #3C2FFF;
+    box-shadow: 0 4px 12px rgba(60, 47, 255, 0.4);
+    transform: translateY(-2px);
 }
 
 
@@ -227,3 +237,85 @@ font-weight: 24px;
     border-radius: 48px;
     margin-top: 20px;
 }
+
+
+
+/* from-start */
+
+
+
+.from-section {
+    padding: 92px 150px 14px 150px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.from-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+}
+
+.from-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.from-left {
+    margin-top: 20px;
+}
+
+.from-left label {
+font-size: 18px;
+font-weight: 500;
+}
+
+.from-left input[type="email"], .from-left input[type="text"], .from-left textarea {
+    display: block;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0px 20px 32px;
+    width: 80%;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.from-left button {
+    width: 90%;
+}
+
+.footer-section{
+    padding: 102px 453px;
+}
+
+.footer-section h1{
+    text-align: center;
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.footer-section p{
+text-align: center;
+color: #8987A1;
+margin: 8px 0px 20px 0px;
+}
+
+.footer-menu{}
+
+.footer-menu ul{
+    display: flex;
+}
+
+.footer-menu ul li{
+    margin: auto;
+    list-style: none;
+}
+
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
