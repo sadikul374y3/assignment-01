@@ -22,6 +22,10 @@ main{
     text-decoration: none;
 }
 
+main{
+    background-color: #f5f8ff;
+}
+
 
 
 /* header-start */
@@ -188,4 +192,38 @@ font-weight: 24px;
 .review-section p{
     margin-bottom: 24px;
     color: #1E1E1E;
+}
+
+
+/* focus-section-start */
+
+
+.focus{
+    padding: 137px 150px 92px 150px;
+    background-color: ;
+    
+}
+
+.focus-section{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 71px 150px;
+}
+
+
+.focus-section h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.focus-section p{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0px;
+}
+
+.focus-image img{
+    border-radius: 48px;
+    margin-top: 20px;
 }
