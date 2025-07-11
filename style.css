@@ -11,6 +11,14 @@
   font-style: normal;
 }
 
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* sharing-css */
 .primary-btn {
     padding: 12px 36px;
@@ -135,6 +143,7 @@ border-radius: 24px;
 .joined-bottom{}
 
 .active-user-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
