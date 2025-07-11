@@ -2,3 +2,190 @@
     padding: 0;
     margin: 0;
 }
+
+main{
+    /* max-width: 1140px; */
+}
+
+/* sharing-css */
+.primary-btn {
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+.primary-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* header-start */
+
+header{
+    background-image: url(./Assets/Hero-bg.png);
+    background-size: cover;
+    
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
+}
+
+.header-left{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 900; 
+}
+
+.header-left a{
+    text-decoration: none;
+}
+
+
+
+/* baner-start */
+
+.baner-container{
+
+
+}
+
+.baner-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 157px 267.5px 37px 267.5px ;
+    text-align: center;
+}
+
+.baner-button{
+    padding-bottom: 152px;
+    text-align: center;
+}
+
+
+/* see-it-action-section-start */
+
+.see-it{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 116px 160px 116px 140px;
+    gap: 220px;
+    align-items: center;
+}
+
+.see-it-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.see-it-sub-title{
+    color: rgba(37, 36, 50, 0.5);
+    font-weight: 400;
+    font-size: 24px;
+    margin: 23px 0px 23px 0px;
+}
+
+
+/* joined-section-start */
+
+.joined-section{background-color: rgba(78, 71, 255, 0.1);
+margin: 0px 159px 0px 141px;
+border-radius: 24px;
+}
+
+.joined{
+    padding: 50px 142px;
+}
+
+.joined-title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.joined-bottom{}
+
+.active-user-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 40px 0px 50px 0px;
+}
+
+.active-user-sub-title{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+/* review-section */
+
+
+.review-title{
+    margin-top: 137px;
+    color: #252432;
+    font-weight: bold;
+    font-size: 41px;
+    text-align: center;
+}
+
+
+.reviewer-main-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.rv-section{
+    display: flex;
+    gap: 6px;
+}
+
+.reviewer-text h2{
+    font-weight: bold;
+    font-size: 16px;
+    color: #757575;
+}
+
+.reviewer-text p{
+    color: #B3B3B3;
+}
+
+.reviewer-section{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px 5px rgba(242, 237, 237, .5);
+    padding: 24px;
+    color: #1E1E1E;
+}
+
+.review-section h2{margin: 24px 0px 8px 0px;
+font-weight: 24px;
+}
+
+.review-section p{
+    margin-bottom: 24px;
+    color: #1E1E1E;
+}
